@@ -1,0 +1,8 @@
+<h1>Job Seeker Profile</h1>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="text" name="full_name" placeholder="Full Name" value="{{ profile.full_name }}"><br>
+    <input type="text" name="position" placeholder="Position" value="{{ profile.position }}"><br>
+    <input type="file" name="cv"><br>
+    <button type="submit">Save Profile</button>
+</form>

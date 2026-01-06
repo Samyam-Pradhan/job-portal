@@ -1,0 +1,6 @@
+<h1>Welcome to Job Portal</h1>
+<form method="post">
+    {% csrf_token %}
+    <button type="submit" name="role" value="jobseeker">I am a Job Seeker</button>
+    <button type="submit" name="role" value="employer">I am an Employer</button>
+</form>
