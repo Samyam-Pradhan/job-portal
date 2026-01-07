@@ -147,4 +147,6 @@ SIMPLE_JWT = {
     'AUTH_HEADER_TYPES': ('Bearer',),
 }
 
-AUTH_USER_MODEL = 'accounts.User'
+AUTH_USER_MODEL = 'accounts.User' #tells django use my own custom user model 
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField' #user BIGINT instead of INT
