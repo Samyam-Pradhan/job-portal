@@ -30,7 +30,7 @@ function Home() {
 
         {/* Right Section (Role Selection) */}
         <div className="w-full md:w-1/2 flex items-center justify-center px-16">
-          <div className="max-w-2xl w-full">
+          <div className="container max-w-2xl w-full">
             <h1 className="text-3xl font-bold mb-6 text-center">
               Select Your Role
             </h1>
